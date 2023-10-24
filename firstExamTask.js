@@ -15,6 +15,7 @@ function solve(input) {
 
     if (count % 5 == 0) {
       income *= 0.90;
+      expenses = Number(input[i + 2]);
     }
     
 
